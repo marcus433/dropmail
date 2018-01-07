@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-717,0)">
+        <g id="snooze-weekend" transform="matrix(0.318085,0,0,0.324566,715.539,72.7199)">
+            <rect x="6.695" y="-222.182" width="154.047" height="150.971" style="fill:none;"/>
+            <g>
+                <g transform="matrix(6.30072,0,0,6.17492,83.7181,-146.697)">
+                    <g transform="matrix(1,0,0,1,-12,-12)">
+                        <path d="M21,10C19.9,10 19,10.9 19,12L19,15L5,15L5,12C5,10.9 4.1,10 3,10C1.9,10 1,10.9 1,12L1,17C1,18.1 1.9,19 3,19L21,19C22.1,19 23,18.1 23,17L23,12C23,10.9 22.1,10 21,10ZM18,5L6,5C4.9,5 4,5.9 4,7L4,9.15C5.16,9.56 6,10.66 6,11.97L6,14L18,14L18,11.97C18,10.67 18.84,9.57 20,9.15L20,7C20,5.9 19.1,5 18,5Z" style="fill:rgb(1,1,1);fill-rule:nonzero;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,56 @@
+.scrolling .swipe {
+  transition: none !important;
+}
+.swipe {
+  position: absolute;
+  display: inline-block;
+  height: 90px;
+  width: 300px;
+  background: #1E1E1E;
+  transition: transform 350ms ease-in-out 0ms, opacity 350ms ease-in-out 0ms;
+  &.swiping {
+    transition: .25s ease-in-out !important;
+    -moz-transition: .25s ease-in-out !important;
+    -webkit-transition: .25s ease-in-out !important;
+  }
+  .action-icon {
+    position: absolute;
+    display: flex;
+    height: 90px;
+    align-items: center;
+    margin-top: -2px;
+    &.fadehide {
+      transition: .25s ease-in-out !important;
+      -moz-transition: .25s ease-in-out !important;
+      -webkit-transition: .25s ease-in-out !important;
+      opacity: 0;
+    }
+    svg {
+      display: inline-block;
+      color: #FFF;
+      transition: .25s ease-in-out;
+      -moz-transition: .25s ease-in-out;
+      -webkit-transition: .25s ease-in-out;
+      height: 25px;
+      width: 25px;
+    }
+  }
+  &.expunge {
+    background: #1E1E1E;
+  }
+  &.mailbox {
+    background: #1BC3E1;
+  }
+  &.delete {
+    background: #EA6153;
+  }
+  &.archive {
+    background: #3FD17C;
+  }
+  &.snooze {
+    background: #89589C;
+  }
+  &.list {
+    background: #4AA3DF;
+  }
+}

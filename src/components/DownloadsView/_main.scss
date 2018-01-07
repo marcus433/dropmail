@@ -1,0 +1,92 @@
+.downloads-view {
+  -webkit-animation: fade 1.0s 1;
+  padding: 30px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  flex: 1;
+  .downloads-container {
+    /*display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;*/
+    position: relative;
+  }
+  &.scrolling {
+    .download {
+      transition: 300ms all;
+      transition: .25s ease-in-out;
+      -moz-transition: .25s ease-in-out;
+      -webkit-transition: .25s ease-in-out;
+    }
+  }
+  &.loading {
+    .download {
+      -webkit-animation: pop 0.4s 1;
+    }
+  }
+  .download {
+    margin: 25px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    -webkit-transform-style: preserve-3d;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px 0px; // TODO: increase defauly shadow
+    background: #FFF;
+    border-radius: 4px;
+    width: 200px;
+    height: 250px;
+    -webkit-app-region: no-drag;
+    &.inactive {
+      opacity: 0.5;
+    }
+
+    //:not(.huge)
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.2) 0px 16px 32px 0px;
+    }
+    &:active {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+    .preview {
+      width: 90%;
+      height: 190px;
+      border-radius: 4px;
+      background: #E1E1E1;
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      img {
+        height: 100%;
+        pointer-events: none;
+      }
+      iron-icon {
+        color: #FFF;
+        &.iron-icon-1 {
+          width: 150px;
+          height: 150px;
+        }
+      }
+    }
+    .details {
+      flex: 1;
+      width: 90%;
+      padding-top: 5px;
+      .title {
+        font-style: bold;
+        font-family: Roboto-Bold;
+        text-transform: uppercase;
+        color: #1E1E1E;
+        font-size: 12px;
+      }
+      iron-icon {
+        float: right;
+        color: #1BC3E1;
+      }
+    }
+  }
+}

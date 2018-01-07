@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1,0,0,1,-895,0)">
+        <g id="snooze-future" transform="matrix(0.318085,0,0,0.324566,893.269,72.9783)">
+            <rect x="6.695" y="-222.182" width="154.047" height="150.971" style="fill:none;"/>
+            <g>
+                <g transform="matrix(6.30072,0,0,6.17492,83.7181,-146.697)">
+                    <g transform="matrix(1,0,0,1,-12,-12)">
+                        <rect x="0" y="0" width="24" height="24" style="fill:none;"/>
+                        <path d="M12,10C8.14,10 5,13.14 5,17L7,17C7,14.24 9.24,12 12,12C14.76,12 17,14.24 17,17L19,17C19,13.14 15.86,10 12,10ZM12,6C5.93,6 1,10.93 1,17L3,17C3,12.04 7.04,8 12,8C16.96,8 21,12.04 21,17L23,17C23,10.93 18.07,6 12,6Z" style="fill-rule:nonzero;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

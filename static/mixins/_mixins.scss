@@ -1,0 +1,11 @@
+@mixin box-shadow($top, $left, $blur, $color) {
+  -webkit-box-shadow: $top $left $blur $color;
+  -moz-box-shadow: $top $left $blur $color;
+  box-shadow: $top $left $blur $color;
+}
+
+@mixin delistify() {
+  list-style: none;
+  list-style-type: none;
+  list-style-position: inside;
+}

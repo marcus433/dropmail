@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../static/fonts/Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("../static/fonts/Roboto/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../static/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../static/fonts/Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("../static/fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "NexaBold";
+  src: url("../static/fonts/Nexa/NexaBold.otf");
+}
+
+@font-face {
+  font-family: "NexaLight";
+  src: url("../static/fonts/Nexa/NexaLight.otf");
+}
+
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+* {
+  cursor: default !important;
+}
+
+.wrapper, html, body {
+  background: #272727;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  overflow: hidden;
+  -webkit-user-select: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.interface {
+  display: flex;
+  flex: 2;
+  cursor: default;
+  -webkit-app-region: drag;
+  &.column {
+    flex-direction: column;
+  }
+}
+
+.window-controls-container {
+  height: 30px;
+  display: flex;
+  cursor: default;
+  -webkit-app-region: drag;
+  background: #323232;
+  text-align: left;
+  padding-left: 15px;
+  font-size: 12px;
+  font-family: Roboto-Regular;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #FFF;
+  -webkit-box-sizing: border-box;
+}
+
+.window-controls {
+  flex-grow: 1;
+  display: flex;
+  z-index: 1001;
+  &.mac {
+    &:hover {
+      div img {
+        height: 6px;
+        width: 6px;
+        display: block;
+      }
+    }
+    div {
+      // remove below, from elsewhere...
+      -webkit-app-region: no-drag;
+      display: inline-block;
+      padding: 0;
+      width: 10px;
+      height: 10px;
+      margin: 4px;
+      border-radius: 10px;
+      background-color: transparent;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      border: 0;
+      img {
+        margin-left: 2px;
+        margin-top: 2px;
+      }
+      &:nth-of-type(1) {
+        background-color: #FF3D48;
+        border: 1px solid #F1131E;
+      }
+      &:nth-of-type(2) {
+        background-color: #F9B900;
+        border: 1px solid #E59E13;
+      }
+      &:nth-of-type(3) {
+        background-color: #00BF39;
+        border: 1px solid #11A725;
+      }
+      img {
+        display: none;
+      }
+    }
+    &:first-child {
+      margin-left: 8px;
+    }
+  }
+}
